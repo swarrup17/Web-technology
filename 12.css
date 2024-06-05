@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Space for fixed position element */
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box {
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px; /* Adjusted margin to fit all elements */
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.static {
+    position: static;
+    background-color: #3498db;
+}
+
+.relative {
+    position: relative;
+    background-color: #2ecc71;
+    top: 20px;
+    left: 20px;
+    margin-top: 40px; /* Margin to separate from static */
+}
+
+.absolute {
+    position: absolute;
+    background-color: #e74c3c;
+    top: 200px; /* Positioned to not overlap with others */
+    left: 50px;
+    width: calc(100% - 100px); /* Adjust width to fit in the container */
+}
+
+.fixed {
+    position: fixed;
+    background-color: #9b59b6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Ensure it stays on top */
+}
+.sticky {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 60px; /* Adjusted top to not overlap with fixed */
+    background-color: #f39c12;
+    z-index: 5; /* Ensure it stays below the fixed element */
+    margin-top: 80px; /* Additional margin to separate from other elements */
+}
+.initial {
+    position: initial;
+    background-color: #d35400;
+    margin-top: 300px; /* Added margin to make it visible */
+}
+
+.inherit {
+    position: inherit;
+    background-color: #7f8c8d;
+    margin-top: 40px; /* Additional margin to space out */
+}
