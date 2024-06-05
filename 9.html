@@ -1,65 +1,27 @@
-<!-- Create Table on HTML and insert your friend list -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <h1 style="text-align:center;">Student Registration Form</h1>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration form</title>
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="Lab9.css">
 </head>
 <body>
-   <form="">
-<label>Full Name:</label>
-<input type="text"><br>
-<label>DOB:</label>
-<input type="date"><br>
-<label>Phone:</label>
-<input type="number"><br>
-<label >Email:</label>
-<input type="email"><br>
-<label>Gender:</label>
-<input type="radio">Male
-<input type="radio">Female<br>
-<table>
-    <th>
-    <label>Local Address</label>
-    <br>
-   <textarea></textarea>
-</th>
-<th>
-   <label>Residental Address</label>
-   <br>
-   <textarea></textarea>
-</th>
-</table>
-<label>Last School/college:</label>
-<input type="text"><br>  
-<p>I would like to register following course<input type="checkbox">BSc CSIT <input type="checkbox">BCA
-    <input type="checkbox">BBM<input type="checkbox">BIM<input type="checkbox">BHM</p>
+    <h1 style="background-color: aqua;">File Header using inline CSS</h1>
+    <p style="background-color: aquamarine;">This is the content in a paragraph using inline CSS.</p>
 
-    <div class="hero">
- <div class="sig">
-    <p>Student Signature</p>
-    ...............................
-</div>
-   <div class="camsig">
-    <p>Campus Admin</p>
-    ..................
- </div>
-</div>
-   </form>
+    <p class="internal-css">This is styled using internal CSS.</p>
+    
+    <p class="external-css">This is styled using external CSS.</p>
+
+    <br>
+    <button>Button</button>
+
+    <style>
+        .internal-css{
+            background-color: red;
+            color: white;
+            padding: 5px;
+            display: inline;
+        }
+    </style>
 </body>
-<style>
-    .sig{
-        
-        margin-top: 70px;
-        margin-right: 200px;
-    }
-    .camsig{
-        margin-top: 70px;
-    }
-    .hero{
-        display: flex;
-    }
-</style>
 </html>
