@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <id>1</id>
+        <name>John Doe</name>
+        <department>Engineering</department>
+        <position>Software Developer</position>
+        <salary>75000</salary>
+    </employee>
+    <employee>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <department>Marketing</department>
+        <position>Marketing Manager</position>
+        <salary>85000</salary>
+    </employee>
+    <employee>
+        <id>3</id>
+        <name>Michael Johnson</name>
+        <department>Human Resources</department>
+        <position>HR Specialist</position>
+        <salary>65000</salary>
+    </employee>
+</employees>

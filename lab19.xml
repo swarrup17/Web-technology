@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>1001</id>
+        <name>Emily Johnson</name>
+        <age>20</age>
+        <gender>Female</gender>
+        <major>Computer Science</major>
+        <gpa>3.8</gpa>
+        <courses>
+            <course>Introduction to Programming</course>
+            <course>Data Structures and Algorithms</course>
+            <course>Database Management Systems</course>
+        </courses>
+    </student>
+    <student>
+        <id>1002</id>
+        <name>Michael Smith</name>
+        <age>21</age>
+        <gender>Male</gender>
+        <major>Electrical Engineering</major>
+        <gpa>3.5</gpa>
+        <courses>
+            <course>Circuit Analysis</course>
+            <course>Electromagnetic Fields</course>
+            <course>Digital Signal Processing</course>
+        </courses>
+    </student>
+    <student>
+        <id>1003</id>
+        <name>Sarah Brown</name>
+        <age>19</age>
+        <gender>Female</gender>
+        <major>English Literature</major>
+        <gpa>3.9</gpa>
+        <courses>
+            <course>British Literature</course>
+            <course>American Poetry</course>
+            <course>Shakespearean Plays</course>
+        </courses>
+    </student>
+</students>
